@@ -29,4 +29,5 @@ int main() {
     printf("Name: %s\n", s1.name);
 
     return 0;
+
 }
