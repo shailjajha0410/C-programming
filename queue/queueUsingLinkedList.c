@@ -43,7 +43,7 @@ void display(){
         }
     }
 }
-int main(){
+ int main(){
     int choice, x;
 
 
