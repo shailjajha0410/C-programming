@@ -6,7 +6,7 @@ struct Node {
     struct Node *next;
 };
 
-struct Node *head = NULL; 
+struct Node *head = NULL;
 
 struct Node* createNode(int value) {
     struct Node *n = (struct Node*)malloc(sizeof(struct Node));
