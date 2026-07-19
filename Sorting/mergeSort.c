@@ -5,7 +5,7 @@ void merge(int arr[], int left, int mid, int right) {
     int n2 = right - mid;
 
     int L[n1], R[n2];
-
+    
     // Copy data to temp arrays
     for (int i = 0; i < n1; i++)
         L[i] = arr[left + i];
