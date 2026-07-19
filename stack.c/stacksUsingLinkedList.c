@@ -7,7 +7,7 @@ struct Node{
 };
 struct Node *top= NULL;
 
-void push(int data){
+void push(int data) {
     struct Node*newnode;
    struct Node *newnode= (struct Node*)malloc(sizeof(struct Node));
    if (newnode == 0){
