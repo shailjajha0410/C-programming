@@ -13,7 +13,7 @@ void enqueue(int x){
     newnode->next=x;
     newnode->next=NULL;
     
-    if (front==0, rear==0){
+    if (front==0, rear==0) {
     front=rear=newnode;
     }else{
         rear->next=newnode;
